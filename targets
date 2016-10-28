@@ -3,4 +3,4 @@ find -L data \
 	-name '*.vcf.gz' \
 | sed \
 	-e 's#data/#results/#' \
-	-e 's#.vcf.gz$#.txt#'
+	-e 's#.vcf.gz$#.transposed.txt#'
